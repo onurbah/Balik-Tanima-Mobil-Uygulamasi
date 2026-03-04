@@ -1,0 +1,33 @@
+description: Ultralytics best_YOLOv8n model trained on /content/fish_dataset/data.yaml
+author: Ultralytics
+date: '2025-10-04T15:05:42.115093'
+version: 8.3.204
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: AngelFish
+  1: BlueTang
+  2: ButterflyFish
+  3: ClownFish
+  4: GoldFish
+  5: Gourami
+  6: MorishIdol
+  7: PlatyFish
+  8: RibbonedSweetlips
+  9: ThreeStripedDamselfish
+  10: YellowCichlid
+  11: YellowTang
+  12: ZebraFish
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: false
+  nms: true
+channels: 3
